@@ -1,0 +1,83 @@
+
+@media only screen and (max-width: 500px) {
+    body {
+        max-height: 100%;
+        max-width: 100%;
+        
+    }}
+
+
+    body{
+
+     margin: 10px;
+      background-color: #326872;
+       }
+      .glyphicon{
+
+color: yellow;
+
+  }
+  
+.save_button {
+    min-width: 100px;
+    max-width: 100px;
+}
+input[type=name] {
+    
+    color: white;
+  }
+  input[type=email] {
+    
+    color: white;
+  }
+  input[type=password] {
+    
+    color: white;
+  }
+   @font-face {
+    font-family: "nasalization";
+    src: url("../fonts/nasalization-rg.ttf");
+ 	
+}
+  .custom {
+    width: 100px;
+}
+div {
+     font-family: 'nasalization', sans-serif;
+}
+
+
+.rectangle{
+    height: 125px;
+    padding: 15px;
+     margin: 0 auto;
+        
+       
+border-radius: 10%;
+background-color: silver;
+}
+.yo{
+
+}
+.logo{
+
+}
+
+.yup
+{
+	max-height: 500px;
+}
+    @media only screen and (max-width: 768px) {
+   .logo img {
+      max-height: 150px;
+      max-width: 200px;
+     
+      
+      overflow: hidden;
+
+  }
+  .yo img{
+    max-height: 75px;
+    max-width: 90px;
+  }
+}
